@@ -18,3 +18,7 @@ Automovil.prototype.venderAutomovil = function(nuevoTitular){
 Automovil.prototype.encender = function(){
     alert("El auto esta encendido🚗");
 }
+
+Automovil.prototype.verAutomovil = function(){
+    return '${this.marca} ${this.modelo} - ${this.color} - ${this.anio} - ${this.titular}'
+}
