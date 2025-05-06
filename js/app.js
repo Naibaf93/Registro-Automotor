@@ -13,3 +13,7 @@ let automovil3 = new Automovil('Renault', 'Sandero', 'Gris', 2011, 'Antonio Vale
 Automovil.prototype.venderAutomovil = function(nuevoTitular){
     this.titular = nuevoTitular;
 }
+
+Automovil.prototype.encender = function(){
+    alert("El auto esta encendido🚗");
+}
