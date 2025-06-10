@@ -15,7 +15,8 @@ let automovil3 = new Automovil('Renault', 'Sandero', 'Gris', 2011, 'Antonio Vale
 let automovil4 = new Automovil('Ford', 'Mustang', 'Azul', 2018, 'Cristian Vargas');
 let automovil5 = new Automovil('Audi', 'A3 Sportback', 'Blanco', 2020, 'Julián Vargas');
 let automovil6 = new Automovil('BMW', 'Sedán', 'Plateado', 2015, 'Oscar Galindo');
-let automoviles = [automovil1, automovil2, automovil3, automovil4, automovil5, automovil6];
+let automovil7 = new Automovil('Toyota', 'Corolla', 'Negro', 2020, 'Melisa Forero');
+let automoviles = [automovil1, automovil2, automovil3, automovil4, automovil5, automovil6, automovil7];
 
 /* Metodos */
 
